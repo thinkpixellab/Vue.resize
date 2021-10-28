@@ -8,12 +8,12 @@ const defaultDelay = 150;
 
 function getOptions(modifiers) {
   if (!modifiers) {
-    return { delay: defaultDelay, initial: false }
+    return { delay: defaultDelay, initial: false, tag: 'span' }
   }
-  const { initial = false } = modifiers;
+  const { initial = false, tag = 'span' } = modifiers;
   let delay = Object.keys(modifiers).map(k => parseInt(k)).find(v => !isNaN(v));
   delay = delay || defaultDelay;
-  return { delay, initial }
+  return { delay, initial, tag }
 }
 
 function listenToVisible(element, callback) {
@@ -46,7 +46,8 @@ function createResizeSensor(el, { value, arg, options }) {
       break;
   }
 
-  const res = new ResizeSensor(el, callBack);
+  const { tag } = options;
+  const res = new ResizeSensor(el, callBack, { tag });
   if (options.initial) {
     value(el);
   }

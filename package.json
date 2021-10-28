@@ -19,7 +19,7 @@
     "prepublishOnly": "npm run build"
   },
   "dependencies": {
-    "css-element-queries": "^1.0.2",
+    "css-element-queries": "https://github.com/thinkpixellab/css-element-queries.git",
     "intersection-observer": "^0.5.0",
     "lodash.debounce": "^4.0.8"
   },
