@@ -1,5 +1,5 @@
 {
-  "name": "vue-resize-directive",
+  "name": "@thinkpixellab/vue-resize-directive",
   "version": "1.2.0",
   "description": "Vue.js 2.0 directive to detect element resize",
   "main": "dist/Vueresize.js",
@@ -65,12 +65,12 @@
     "npm": ">= 3.0.0"
   },
   "bugs": {
-    "url": "https://github.com/David-Desmaisons/Vue.resize/issues"
+    "url": "https://github.com/thinkpixellab/Vue.resize/issues"
   },
   "license": "MIT",
-  "homepage": "https://github.com/David-Desmaisons/Vue.resize#readme",
+  "homepage": "https://github.com/thinkpixellab/Vue.resize#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/David-Desmaisons/Vue.resize.git"
+    "url": "https://github.com/thinkpixellab/Vue.resize"
   }
 }
