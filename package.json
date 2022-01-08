@@ -1,9 +1,9 @@
 {
   "name": "@thinkpixellab/vue-resize-directive",
   "publishConfig": {
-    "registry":"https://npm.pkg.github.com/"
+    "registry": "https://npm.pkg.github.com/"
   },
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Vue.js 2.0 directive to detect element resize",
   "main": "dist/Vueresize.js",
   "files": [
