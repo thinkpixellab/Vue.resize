@@ -1,5 +1,5 @@
 {
-  "name": "@thinkpixellab/vue-resize-directive",
+  "name": "@thinkpixellab-public/vue-resize-directive",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   },
@@ -71,9 +71,5 @@
     "url": "https://github.com/thinkpixellab/Vue.resize/issues"
   },
   "license": "MIT",
-  "homepage": "https://github.com/thinkpixellab/Vue.resize#readme",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/thinkpixellab/Vue.resize"
-  }
+  "homepage": "https://github.com/thinkpixellab/Vue.resize#readme"
 }
