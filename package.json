@@ -1,9 +1,6 @@
 {
   "name": "@thinkpixellab-public/vue-resize-directive",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  },
-  "version": "1.2.3",
+  "version": "1.2.2",
   "description": "Vue.js 2.0 directive to detect element resize",
   "main": "dist/Vueresize.js",
   "files": [
@@ -71,5 +68,9 @@
     "url": "https://github.com/thinkpixellab/Vue.resize/issues"
   },
   "license": "MIT",
-  "homepage": "https://github.com/thinkpixellab/Vue.resize#readme"
+  "homepage": "https://github.com/thinkpixellab/Vue.resize#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thinkpixellab/Vue.resize"
+  }
 }
